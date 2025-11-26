@@ -4,7 +4,7 @@ body{
 
 
 .header-info{
-  background-color: #ebdac4;
+  background-color: var(--color-secondary);
   align-items: center;
   display: flex;
   height: 80px;
@@ -66,9 +66,8 @@ body{
 
 .about{
   max-width:52ch;
-
   line-height: 1.5;
-  color: #555;
+  color: var(--color-text-secondary);
   
   @media (min-width: 1080px) {
     grid-column-start: 2;  
@@ -93,7 +92,8 @@ h1{
 h2{
   margin:30px 0 30px 8px;
  color: #8bcbbd;
- font-size: 20px;
+font-size: 20px;
+
 }
 
 
@@ -136,7 +136,7 @@ display: flex;
   aspect-ratio:6/5;
   border-radius: 10px;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
-  border: 2px solid #ebdac4;
+  border: 2px solid var(--color-secondary);
 /* 
   &:hover {
     transform:scale(1.05) ;
@@ -168,9 +168,11 @@ display: flex;
     opacity: 1;
 }
 .text p{
-  font-size: 16px;
-  color:#ebdac4;
+      font-size: var(--font-size-p-s);
+   font-family: var(--font-family-p);
+  color:var( --color-secondary);
   text-align: end;
+  
 }
 .text > *{
 transform: translateY(25px);
@@ -187,13 +189,13 @@ transform: translateY(0px);
 .footer-content{
   padding: 100px 30px;
   width: 100%;
-  background-color: #0d3951;
+  background-color: var(--color-primary);
   display:block;
  margin-top: 40px;
-color: white;
+color: var(--color-text-primary);
 }
 .footer__logo svg{
-  fill: white;
+  fill:  var(--color-text-primary);
   height: auto;
   width: 250px;
   

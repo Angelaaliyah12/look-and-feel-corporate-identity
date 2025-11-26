@@ -1,10 +1,7 @@
 body{
-   
     align-items: center;  
   height: 100vh;          
   margin: 0;     
-    
-
 }
 
 .logo{
@@ -14,19 +11,19 @@ body{
 }
 .button{
   background-color: #ebdac4;
-  border-radius: 2px;
+  border-radius: 20px;
   position: absolute;
-  right: 32px;
+  right: 22px;
   top: 32px;
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
 }
 
 .button:before, .button:after {
   position: absolute;
-  left: 15px;
+  left: 20px;
   content: ' ';
-  height: 33px;
+  height: 43px;
   width: 2px;
   background-color: #333;
 }

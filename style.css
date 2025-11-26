@@ -7,7 +7,6 @@ body{
   background-color: var(--color-secondary);
   align-items: center;
   display: flex;
-  height: 80px;
   justify-content: space-between;
   padding: 0 30px;
   position: fixed;
@@ -15,12 +14,12 @@ body{
   width: 100%;
   z-index: 1000;
   left: 0;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); 
-
+  box-shadow: 0 4px 4px rgba(135, 127, 127, 0.1); 
+  height: clamp(2.5rem, 1.8478rem + 3.2609vw, 4.375rem);
 }
 
 .header-info svg{
-  width:clamp(15.625rem, 6.25rem + 46.875vw, 30rem);
+  width:clamp(15.625rem, 6.25rem + 46.875vw, 20rem);
   height: auto;
 }
 
@@ -52,7 +51,7 @@ body{
 }
 
 .titleonderelkaar{
-  width:90%;
+  width:clamp(18.75rem, 2.4457rem + 81.5217vw, 65.625rem);
   height: auto;
   display: block;
 

@@ -100,3 +100,20 @@ margin: 0 auto 10px 8px;
   width: 35rem;
 }
 }
+
+
+/* FOOTER SECTION */
+
+.footer-content{
+  padding: 100px;
+  width: 100%;
+  background-color: var(--color-primary);
+  display:block;
+ margin-top: 40px;
+color: var(--color-text-primary);
+}
+.footer__logo svg{
+  fill:  var(--color-text-primary);
+  height: auto;
+  width: 250px;
+}
